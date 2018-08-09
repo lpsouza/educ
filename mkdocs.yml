@@ -1,8 +1,9 @@
 site_name: 'EDUC'
+repo_url: 'https://github.com/lpsouza/educ/'
 lang: pt
 theme:
   name: 'material'
-  highlightjs: 'true'
-  hljs_style: 'atom-one-dark'
+markdown_extensions:
+- codehilite
 nav:
   - 'C#': '/csharp-e-dotnet/'
