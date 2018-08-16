@@ -6,4 +6,7 @@ theme:
 markdown_extensions:
 - codehilite
 nav:
-  - 'C#': '/csharp-e-dotnet/'
+  - 'C#':
+    - 'Conhecendo C# com .NET Core': '/csharp-e-dotnet/'
+    - 'Hello World': '/csharp-e-dotnet/hello-world/'
+    - 'Olá objetos': '/csharp-e-dotnet/objetos/'
