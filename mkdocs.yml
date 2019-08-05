@@ -4,9 +4,8 @@ lang: pt
 theme:
   name: 'material'
 markdown_extensions:
-- codehilite
+    - codehilite
 nav:
-  - 'C#':
-    - 'Conhecendo C# com .NET Core': '/csharp-e-dotnet/'
-    - 'Hello World': '/csharp-e-dotnet/hello-world/'
-    - 'Olá objetos': '/csharp-e-dotnet/objetos/'
+    - '.NET Core':
+        - 'Básico': '/dotnet/basics/'
+        - 'Orientação a Objetos': '/dotnet/object-oriented/'
