@@ -8,4 +8,4 @@ markdown_extensions:
 nav:
     - '.NET Core':
         - 'Básico': '/dotnet/basics/'
-        - 'Orientação a Objetos': '/dotnet/object-oriented/'
+        - 'Orientação a Objetos': '/dotnet/oop/'

@@ -5,4 +5,4 @@ Oi! Me chamo [Luiz](https://luizsouza.com.br/) e sou *Cloud Engineer* na [Umbler
 ## Conteúdos disponibilizados
 
 - [.NET Core - Básico](/dotnet/basics/)
-- [.NET Core - Orientação a Objetos](/dotnet/object-oriented/)
+- [.NET Core - Orientação a Objetos](/dotnet/oop/)
