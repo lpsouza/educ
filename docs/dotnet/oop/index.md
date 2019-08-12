@@ -1,4 +1,4 @@
-# Orientação a objetos
+# Programação Orientada a objetos
 
 A programação orientada a objetos nos trás a analogia de objetos do mundo real. Vejam o exemplo onde podemos desenvolver um jogo de corrida e os objetos do mundo real que usamos em um carro de corrida ser utilizado nesta programação como o piloto, o carro, os pneus, o volante, e por aí vai \[[1](#links)\]!
 
