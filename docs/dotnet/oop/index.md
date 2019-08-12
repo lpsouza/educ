@@ -301,7 +301,7 @@ namespace ExemploOO
     {
         static void Main(string[] args)
         {
-            Carro c = new Carro("Aston Martin", "DB11", 2016, "Inglaterra"); 
+            Carro c = new Carro("Aston Martin", "DB11", 2016, "Inglaterra");
             Caminhao t = new Caminhao("Volvo", "FH16", 2009);
 
             Console.WriteLine("\nCarro: {0} {1}/{2} - {3}", c.Modelo, c.Ano, c.Marca, c.Pais);
@@ -384,7 +384,7 @@ namespace ExemploOO
     {
         static void Main(string[] args)
         {
-            Carro c = new Carro("Aston Martin", "DB11", 2016, "Inglaterra"); 
+            Carro c = new Carro("Aston Martin", "DB11", 2016, "Inglaterra");
             Caminhao t = new Caminhao("Volvo", "FH16", 2009);
 
             Console.WriteLine("\nCarro: {0} {1}/{2} - {3}", c.Modelo, c.Ano, c.Marca, c.Pais);
