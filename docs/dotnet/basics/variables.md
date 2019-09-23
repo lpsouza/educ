@@ -9,7 +9,7 @@ Exemplo: `string nome = "Luiz";`
 - int: Números inteiros;  
 Exemplo: `int idade = 38;`
 - double: "Números com virgula";  
-Exemplo: `int preco = 19.99;`
+Exemplo: `double preco = 19.99;`
 - bool: Valores booleanos (Verdadeiro ou Falso).  
 Exemplo: `bool comprado = true;`
 
