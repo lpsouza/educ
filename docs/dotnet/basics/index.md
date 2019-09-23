@@ -93,7 +93,7 @@ Este é o método principal da classe *Program*. De maneira básica, aqui é ond
 Console.WriteLine("Hello World!");
 ```
 
-E por fim e não mesmo importante! Aqui temos o nosso código que foi executado quando rodamos o `dotnet run`. O `Console` é o objeto que representa o Prompt de Comando ou o Terminal, e ele esta executando um método chamado `WriteLine()`, que serve para imprimir no Prompt de Comando ou Terminal a string que estiver digitada dentro dos parenteses.
+E por fim e não menos importante! Aqui temos o nosso código que foi executado quando rodamos o `dotnet run`. O `Console` é o objeto que representa o Prompt de Comando ou o Terminal, e ele esta executando um método chamado `WriteLine()`, que serve para imprimir no Prompt de Comando ou Terminal a string que estiver digitada dentro dos parenteses.
 
 ## Veja mais
 
