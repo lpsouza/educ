@@ -11,11 +11,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Docker Run Action
-        uses: addnab/docker-run-action@v1
+      - name: Run within Docker
+        uses: mosteo-actions/docker-run@v1
         with:
           image: squidfunk/mkdocs-material:latest
-          options: -v ${{github.workspace}}:/docs
-          run: |
-            ls -l /docs
-            mkdocs gh-deploy
+          params: -v $GITHUB_WORKSPACE:/docs
+          command: mkdocs gh-deploy
