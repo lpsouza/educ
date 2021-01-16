@@ -16,4 +16,4 @@ jobs:
         with:
           image: squidfunk/mkdocs-material:latest
           options: -v /home/workplace:/docs
-          run: gh-deploy
+          run: mkdocs gh-deploy
