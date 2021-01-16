@@ -15,5 +15,5 @@ jobs:
         uses: addnab/docker-run-action@v1
         with:
           image: squidfunk/mkdocs-material:latest
-          options: -v $GITHUB_WORKSPACE:/docs
+          options: -v /home/workplace:/docs
           run: gh-deploy
