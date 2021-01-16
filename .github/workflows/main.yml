@@ -16,4 +16,4 @@ jobs:
         with:
           image: squidfunk/mkdocs-material:latest
           params: -v $GITHUB_WORKSPACE:/docs
-          command: mkdocs gh-deploy
+          command: gh-deploy
