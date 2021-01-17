@@ -4,6 +4,10 @@ lang: pt
 google_analytics: ['UA-105361937-2', 'educ.luizsouza.com']
 theme:
   name: 'material'
+  palette:
+    scheme: slate
+    primary: deep purple
+    accent: deep purple
 markdown_extensions:
     - codehilite
 nav:
