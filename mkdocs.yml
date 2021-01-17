@@ -1,7 +1,7 @@
 site_name: 'EDUC'
 repo_url: 'https://github.com/lpsouza/educ/'
 lang: pt
-google_analytics: ['UA-105361937-2', 'educ.luizsouza.com.br']
+google_analytics: ['UA-105361937-2', 'educ.luizsouza.com']
 theme:
   name: 'material'
 markdown_extensions:
