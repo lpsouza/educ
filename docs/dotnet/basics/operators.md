@@ -1,6 +1,6 @@
 # Operadores
 
-Os operadores são símbolos especiais para operar valores \[[1](#links)\]. Eles podem ser:
+Os operadores são símbolos especiais para operar valores[^1]. Eles podem ser:
 
 - Aritméticos
 - Atribuição
@@ -127,8 +127,6 @@ bool b = (true && false); // operador "e" lógico
      b = !(true);         // operador "não" lógico
 ```
 
-Temos mais operadores \[[1](#links)\], mas de forma básica estes são os mais usados.
+Temos mais operadores[^1], mas de forma básica estes são os mais usados.
 
-## Links
-
-- [1] [C# 7 Quick Syntax Reference: A Pocket Guide to the Language, APIs, and Library](https://books.google.com.br/books?id=MnhqDwAAQBAJ&dq=C%23+7+Quick+Syntax+Reference&hl=pt-BR&source=gbs_navlinks_s)
+[^1]: [C# 7 Quick Syntax Reference: A Pocket Guide to the Language, APIs, and Library](https://books.google.com.br/books?id=MnhqDwAAQBAJ&dq=C%23+7+Quick+Syntax+Reference&hl=pt-BR&source=gbs_navlinks_s)

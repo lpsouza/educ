@@ -1,6 +1,6 @@
 # Vetores
 
-Vimos em [Variaveis](../variables/) que elas são uma área de memória temporária onde podemos armazenar um determinado dado enquanto o programa esta sendo executado. Um vetor é um tipo especial de variável, que pode receber um conjunto de variáveis em uma mesma variável \[[1](#links)\]. Por exemplo, se queremos uma variável inteira, declaramos assim:
+Vimos em [Variaveis](../variables/) que elas são uma área de memória temporária onde podemos armazenar um determinado dado enquanto o programa esta sendo executado. Um vetor é um tipo especial de variável, que pode receber um conjunto de variáveis em uma mesma variável[^1]. Por exemplo, se queremos uma variável inteira, declaramos assim:
 
 ```csharp
 // declarando uma variável inteiro "numero" e colocamos o número 3 nela
@@ -90,8 +90,6 @@ numeros[1] = 5;
 numeros[2] = 0; // Último
 ```
 
-Aqui temos a forma mais básica do uso de vetores, e existem mais tipos de vetores que podem ser estudados \[[1](#links)\].
+Aqui temos a forma mais básica do uso de vetores, e existem mais tipos de vetores que podem ser estudados[^1].
 
-## Links
-
-- [1] [C# 7 Quick Syntax Reference: A Pocket Guide to the Language, APIs, and Library](https://books.google.com.br/books?id=MnhqDwAAQBAJ&dq=C%23+7+Quick+Syntax+Reference&hl=pt-BR&source=gbs_navlinks_s)
+[^1]: [C# 7 Quick Syntax Reference: A Pocket Guide to the Language, APIs, and Library](https://books.google.com.br/books?id=MnhqDwAAQBAJ&dq=C%23+7+Quick+Syntax+Reference&hl=pt-BR&source=gbs_navlinks_s)

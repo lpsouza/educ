@@ -1,6 +1,6 @@
 # Condicionais
 
-Os condicionais são momentos de decisão em um programa onde ele pode ou não executar um pedaço do código \[[1](#links)\]. Esta decisão pode ser desenvolvida de duas formas:
+Os condicionais são momentos de decisão em um programa onde ele pode ou não executar um pedaço do código[^1]. Esta decisão pode ser desenvolvida de duas formas:
 
 - If/else/else if (Se/senão/senão se)
 - Switch case (Em caso de)
@@ -150,6 +150,4 @@ namespace VerificaOpcoes
 }
 ```
 
-## Links
-
-- [1] [C# 7 Quick Syntax Reference: A Pocket Guide to the Language, APIs, and Library](https://books.google.com.br/books?id=MnhqDwAAQBAJ&dq=C%23+7+Quick+Syntax+Reference&hl=pt-BR&source=gbs_navlinks_s)
+[^1]: [C# 7 Quick Syntax Reference: A Pocket Guide to the Language, APIs, and Library](https://books.google.com.br/books?id=MnhqDwAAQBAJ&dq=C%23+7+Quick+Syntax+Reference&hl=pt-BR&source=gbs_navlinks_s)

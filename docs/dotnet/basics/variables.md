@@ -13,7 +13,7 @@ Exemplo: `double preco = 19.99;`
 - bool: Valores booleanos (Verdadeiro ou Falso).  
 Exemplo: `bool comprado = true;`
 
-Existem outros tipos de dados \[[1](#links)\], mas vamos trabalhar inicialmente com estes. Ok, vamos voltar ao problema: Escrever "Olá Luiz", onde "Luiz" é um dado armazenado em uma variável.
+Existem outros tipos de dados [^1], mas vamos trabalhar inicialmente com estes. Ok, vamos voltar ao problema: Escrever "Olá Luiz", onde "Luiz" é um dado armazenado em uma variável.
 
 Então podemos fazer assim:
 
@@ -98,6 +98,4 @@ Veja a execução no terminal abaixo:
 
 <script id="asciicast-nPFIYBbc0n5JQ3wO6bDwihDvT" src="https://asciinema.org/a/nPFIYBbc0n5JQ3wO6bDwihDvT.js" async></script>
 
-## Links
-
-- [1] [C# 7 Quick Syntax Reference: A Pocket Guide to the Language, APIs, and Library](https://books.google.com.br/books?id=MnhqDwAAQBAJ&dq=C%23+7+Quick+Syntax+Reference&hl=pt-BR&source=gbs_navlinks_s)
+[^1]: [C# 7 Quick Syntax Reference: A Pocket Guide to the Language, APIs, and Library](https://books.google.com.br/books?id=MnhqDwAAQBAJ&dq=C%23+7+Quick+Syntax+Reference&hl=pt-BR&source=gbs_navlinks_s)

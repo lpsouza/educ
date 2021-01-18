@@ -1,6 +1,6 @@
 # Repetições
 
-As repetições são trechos de código que serão repetidos durante uma determinada condição \[[1](#links)\]. Temos os seguintes tipos de repetições:
+As repetições são trechos de código que serão repetidos durante uma determinada condição[^1]. Temos os seguintes tipos de repetições:
 
 - For (Para)
 - While (Enquanto)
@@ -116,6 +116,4 @@ namespace ListaNumeros
 
 O *foreach* é o mais "diferentão" dos tipos de repetição. Isso porque como já foi comentado ele precisa de uma lista ou de um [vetor](../arrays/), algo que seja enumerável. Este tipo de repetição é o mais utilizado no desenvolvimento de aplicações mais complexas, onde temos que tratar de dados enumeráveis.
 
-## Links
-
-- [1] [C# 7 Quick Syntax Reference: A Pocket Guide to the Language, APIs, and Library](https://books.google.com.br/books?id=MnhqDwAAQBAJ&dq=C%23+7+Quick+Syntax+Reference&hl=pt-BR&source=gbs_navlinks_s)
+[^1]: [C# 7 Quick Syntax Reference: A Pocket Guide to the Language, APIs, and Library](https://books.google.com.br/books?id=MnhqDwAAQBAJ&dq=C%23+7+Quick+Syntax+Reference&hl=pt-BR&source=gbs_navlinks_s)

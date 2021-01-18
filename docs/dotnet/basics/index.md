@@ -1,12 +1,12 @@
 # .NET Core - Básico
 
-Este conteúdo tem a ideia de fixar o conhecimento de algoritmos usando a linguagem C# com uso do .NET Core. Lembrando que um algoritmo é uma sequencia de passos finitos com objetivo de resolver um problema. E com isso usamos a lógica de programação (uma técnica de encadear pensamentos para atingir determinado objetivo) para resolver estes problemas \[[1](#links)\].
+Este conteúdo tem a ideia de fixar o conhecimento de algoritmos usando a linguagem C# com uso do .NET Core. Lembrando que um algoritmo é uma sequencia de passos finitos com objetivo de resolver um problema. E com isso usamos a lógica de programação (uma técnica de encadear pensamentos para atingir determinado objetivo) para resolver estes problemas[^1].
 
 ## O que é o .NET Core
 
-O .NET é uma plataforma de desenvolvedor de código aberto e cross-platform para a criação de vários tipos diferentes de aplicativos. Com o .NET, você pode usar várias linguagens, editores e bibliotecas para criar web, mobile, desktop, jogos e IoT (internet das coisas) \[[2](#links)\].
+O .NET é uma plataforma de desenvolvedor de código aberto e cross-platform para a criação de vários tipos diferentes de aplicativos. Com o .NET, você pode usar várias linguagens, editores e bibliotecas para criar web, mobile, desktop, jogos e IoT (internet das coisas)[^2].
 
-Para utilizar a plataforma .NET precisamos utilizar uma linguagem de programação, e neste caso vamos utilizar o C#, que é uma linguagem de programação simples, moderna, orientada a objetos e de tipagem segura. Alem da linguagem, vamos utilizar uma implementação do .NET cross-platform para sites, servidores e aplicativos de console para Linux, Windows e macOS, isto é, o .NET Core \[[2](#links)\].
+Para utilizar a plataforma .NET precisamos utilizar uma linguagem de programação, e neste caso vamos utilizar o C#, que é uma linguagem de programação simples, moderna, orientada a objetos e de tipagem segura. Alem da linguagem, vamos utilizar uma implementação do .NET cross-platform para sites, servidores e aplicativos de console para Linux, Windows e macOS, isto é, o .NET Core[^2].
 
 ## Ambiente para desenvolvimento
 
@@ -103,7 +103,5 @@ E por fim e não menos importante! Aqui temos o nosso código que foi executado 
 - [Repetições](looping/)
 - [Vetores](arrays/)
 
-## Links
-
-- [1] [Introdução à programação: 500 algoritmos resolvidos](https://books.google.com.br/books?id=ZjRjDwAAQBAJ&dq=Introdu%C3%A7%C3%A3o+%C3%A0+Programa%C3%A7%C3%A3o:+500+Algoritmos+Resolvidos&hl=pt-BR&sa=X&ved=0ahUKEwi-1eb3i-jjAhV-JLkGHSMSAroQ6AEIKTAA)
-- [2] [What is .NET?](https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet)
+[^1]: [Introdução à programação: 500 algoritmos resolvidos](https://books.google.com.br/books?id=ZjRjDwAAQBAJ&dq=Introdu%C3%A7%C3%A3o+%C3%A0+Programa%C3%A7%C3%A3o:+500+Algoritmos+Resolvidos&hl=pt-BR&sa=X&ved=0ahUKEwi-1eb3i-jjAhV-JLkGHSMSAroQ6AEIKTAA)
+[^2]: [What is .NET?](https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet)

@@ -9,6 +9,7 @@ theme:
     primary: deep purple
     accent: deep purple
 markdown_extensions:
+    - footnotes
     - codehilite
 nav:
     - '.NET Core':
