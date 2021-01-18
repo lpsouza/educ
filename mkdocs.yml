@@ -1,17 +1,27 @@
-site_name: 'EDUC'
-repo_url: 'https://github.com/lpsouza/educ/'
-lang: pt
-google_analytics: ['UA-105361937-2', 'educ.luizsouza.com']
+site_name: "EDUC"
+repo_url: "https://github.com/lpsouza/educ/"
+google_analytics: ["UA-105361937-2", "educ.luizsouza.com"]
 theme:
-  name: 'material'
-  palette:
-    scheme: slate
-    primary: deep purple
-    accent: deep purple
+    name: "material"
+    palette:
+        scheme: slate
+        primary: deep purple
+        accent: deep purple
+    lang: en
+    features:
+        - navigation.instant
+        - navigation.tabs
+        - navigation.sections
+        - navigation.expand
+        - toc.integrate
 markdown_extensions:
     - footnotes
     - codehilite
-nav:
-    - '.NET Core':
-        - 'Básico': '/dotnet/basics/'
-        - 'Orientação a Objetos': '/dotnet/oop/'
+    - toc:
+          permalink: true
+# nav:
+#     - index.md
+#     - "Aulas":
+#           - ".NET Core":
+#                 - "Inicio": dotnet/basics/index.md
+#                 - "Vetores": dotnet/basics/arrays.md
