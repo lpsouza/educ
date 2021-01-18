@@ -1,4 +1,7 @@
 {
     "cSpell.enabled": true,
-    "cSpell.language": "pt_BR"
+    "cSpell.language": "pt_BR, en",
+    "cSpell.words": [
+        "codehilite"
+    ]
 }
