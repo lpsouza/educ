@@ -1,0 +1,1034 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.5">
+    
+    
+      
+        <title>Programação Orientada a objetos - EDUC</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.15aa0b43.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.75751829.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#7e56c2">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+        
+<script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-105361937-2","educ.luizsouza.com"),ga("set","anonymizeIp",!0),ga("send","pageview"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})}),document.addEventListener("DOMContentSwitch",function(){ga("send","pageview",document.location.pathname)})</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="deep-purple">
+      
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#programacao-orientada-a-objetos" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../.." title="EDUC" class="md-header-nav__button md-logo" aria-label="EDUC">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      <div class="md-header-nav__ellipsis">
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            EDUC
+          </span>
+        </div>
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            
+              Programação Orientada a objetos
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/lpsouza/educ/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Educ - Apenas mais uma plataforma de ensino
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../basics/" class="md-tabs__link md-tabs__link--active">
+        Dotnet
+      </a>
+    </li>
+  
+
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="EDUC" class="md-nav__button md-logo" aria-label="EDUC">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    EDUC
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/lpsouza/educ/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Educ - Apenas mais uma plataforma de ensino
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+      
+      <label class="md-nav__link" for="nav-2">
+        Dotnet
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Dotnet" data-md-level="1">
+        <label class="md-nav__title" for="nav-2">
+          <span class="md-nav__icon md-icon"></span>
+          Dotnet
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-1" data-md-state="indeterminate" type="checkbox" id="nav-2-1" checked>
+      
+      <label class="md-nav__link" for="nav-2-1">
+        Basics
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Basics" data-md-level="2">
+        <label class="md-nav__title" for="nav-2-1">
+          <span class="md-nav__icon md-icon"></span>
+          Basics
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../basics/" class="md-nav__link">
+        .NET Core - Básico
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../basics/arrays/" class="md-nav__link">
+        Vetores
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../basics/conditionals/" class="md-nav__link">
+        Condicionais
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../basics/looping/" class="md-nav__link">
+        Repetições
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../basics/operators/" class="md-nav__link">
+        Operadores
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../basics/variables/" class="md-nav__link">
+        Variáveis
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-2" type="checkbox" id="nav-2-2" checked>
+      
+      <label class="md-nav__link" for="nav-2-2">
+        Orientacao a objetos
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Orientacao a objetos" data-md-level="2">
+        <label class="md-nav__title" for="nav-2-2">
+          <span class="md-nav__icon md-icon"></span>
+          Orientacao a objetos
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Programação Orientada a objetos
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Programação Orientada a objetos
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#classe-e-objetos" class="md-nav__link">
+    Classe e objetos
+  </a>
+  
+    <nav class="md-nav" aria-label="Classe e objetos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#propriedades" class="md-nav__link">
+    Propriedades
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metodos" class="md-nav__link">
+    Métodos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instanciando-um-objeto" class="md-nav__link">
+    Instânciando um objeto
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#construtores" class="md-nav__link">
+    Construtores
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#encapsulamento" class="md-nav__link">
+    Encapsulamento
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#heranca" class="md-nav__link">
+    Herança
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#polimorfismo" class="md-nav__link">
+    Polimorfismo
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/lpsouza/educ/edit/master/docs/dotnet/orientacao-a-objetos/index.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="programacao-orientada-a-objetos">Programação Orientada a objetos<a class="headerlink" href="#programacao-orientada-a-objetos" title="Permanent link">&para;</a></h1>
+<p>A programação orientada a objetos nos trás a analogia de objetos do mundo real. Vejam o exemplo onde podemos desenvolver um jogo de corrida e os objetos do mundo real que usamos em um carro de corrida ser utilizado nesta programação como o piloto, o carro, os pneus, o volante, e por aí vai<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>!</p>
+<h2 id="classe-e-objetos">Classe e objetos<a class="headerlink" href="#classe-e-objetos" title="Permanent link">&para;</a></h2>
+<p>Então, qualquer coisa que tenha propriedades e pode realizar ações são considerados como objetos. Agora antes de sair criando nossos objetos na programação é necessário entender a diferença entre <strong>classes</strong> e <strong>objetos</strong><sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup>.</p>
+<ul>
+<li><strong>Classe</strong>: Podemos comparar com uma planta baixa, ou um template de um futuro objeto. É na classe que escrevemos as propriedades e os métodos que um objeto vai utilizar. Vale lembrar que uma classe não ocupa espaço em memória!</li>
+<li><strong>Objeto</strong>: O objeto é algo que ocupa espaço em memória e é inicializado a partir de uma classe. Podemos comparar como a construção de uma casa (o objeto) a partir se sua planta baixa (a classe).</li>
+</ul>
+<h3 id="propriedades">Propriedades<a class="headerlink" href="#propriedades" title="Permanent link">&para;</a></h3>
+<p>São as características que um objeto pode ter. No exemplo do objeto carro, as propriedades podem ser o país de construção, ano de fabricação, a marca, o modelo, etc<sup id="fnref3:1"><a class="footnote-ref" href="#fn:1">1</a></sup>. Vamos ver a classe <code>Carro</code> em C#:</p>
+<div class="codehilite"><pre><span></span><code><span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
+
+<span class="k">namespace</span> <span class="nn">ExemploOO</span>
+<span class="p">{</span>
+    <span class="k">public</span> <span class="k">class</span> <span class="nc">Carro</span>
+    <span class="p">{</span>
+        <span class="k">public</span> <span class="kt">string</span> <span class="n">Pais</span><span class="p">;</span>
+        <span class="k">public</span> <span class="kt">int</span> <span class="n">Ano</span><span class="p">;</span>
+        <span class="k">public</span> <span class="kt">string</span> <span class="n">Modelo</span><span class="p">;</span>
+        <span class="k">public</span> <span class="kt">string</span> <span class="n">Marca</span><span class="p">;</span>
+   <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<h3 id="metodos">Métodos<a class="headerlink" href="#metodos" title="Permanent link">&para;</a></h3>
+<p>São as ações que este objeto poderá executar<sup id="fnref4:1"><a class="footnote-ref" href="#fn:1">1</a></sup>. Continuando com o exemplo da classe <code>Carro</code> em C# onde adicionaremos alguns métodos:</p>
+<div class="codehilite"><pre><span></span><code><span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
+
+<span class="k">namespace</span> <span class="nn">ExemploOO</span>
+<span class="p">{</span>
+    <span class="k">public</span> <span class="k">class</span> <span class="nc">Carro</span>
+    <span class="p">{</span>
+        <span class="k">public</span> <span class="kt">string</span> <span class="n">Pais</span><span class="p">;</span>
+        <span class="k">public</span> <span class="kt">int</span> <span class="n">Ano</span><span class="p">;</span>
+        <span class="k">public</span> <span class="kt">string</span> <span class="n">Modelo</span><span class="p">;</span>
+        <span class="k">public</span> <span class="kt">string</span> <span class="n">Marca</span><span class="p">;</span>
+
+        <span class="k">public</span> <span class="k">void</span> <span class="nf">Ligar</span><span class="p">()</span>
+        <span class="p">{</span>
+            <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;Carro ligado.&quot;</span><span class="p">);</span>
+        <span class="p">}</span>
+
+        <span class="k">public</span> <span class="k">void</span> <span class="nf">Desligar</span><span class="p">()</span>
+        <span class="p">{</span>
+            <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;Carro desligado.&quot;</span><span class="p">);</span>
+        <span class="p">}</span>
+
+        <span class="k">public</span> <span class="k">void</span> <span class="nf">Andar</span><span class="p">()</span>
+        <span class="p">{</span>
+            <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;O carro esta andando.&quot;</span><span class="p">);</span>
+        <span class="p">}</span>
+
+        <span class="k">public</span> <span class="k">void</span> <span class="nf">Parar</span><span class="p">()</span>
+        <span class="p">{</span>
+            <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;O carro esta parado.&quot;</span><span class="p">);</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<h3 id="instanciando-um-objeto">Instânciando um objeto<a class="headerlink" href="#instanciando-um-objeto" title="Permanent link">&para;</a></h3>
+<p>Como foi comentado em <a href="#classe-e-objetos">Classes e Objetos</a>, uma classe não ocupa espaço em memória e um objeto, ao contrário, ocupa. Para que uma classe se torne um objeto, temos que fazer sua instância (o inicialização) como objeto. Para isso, vamos inicializar a classe <code>Carro</code> no arquivo <code>Program.cs</code>:</p>
+<div class="codehilite"><pre><span></span><code><span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
+<span class="k">using</span> <span class="nn">System.Threading</span><span class="p">;</span>
+
+<span class="k">namespace</span> <span class="nn">ExemploOO</span>
+<span class="p">{</span>
+    <span class="k">class</span> <span class="nc">Program</span>
+    <span class="p">{</span>
+        <span class="k">static</span> <span class="k">void</span> <span class="nf">Main</span><span class="p">(</span><span class="kt">string</span><span class="p">[]</span> <span class="n">args</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="n">Carro</span> <span class="n">c</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Carro</span><span class="p">();</span> <span class="c1">// A partir daqui temos o objeto c do tipo Carro</span>
+
+            <span class="c1">// Colocando as propriedades</span>
+            <span class="n">c</span><span class="p">.</span><span class="n">Pais</span> <span class="p">=</span> <span class="s">&quot;Alemanha&quot;</span><span class="p">;</span>
+            <span class="n">c</span><span class="p">.</span><span class="n">Ano</span> <span class="p">=</span> <span class="m">2007</span><span class="p">;</span>
+            <span class="n">c</span><span class="p">.</span><span class="n">Modelo</span> <span class="p">=</span> <span class="s">&quot;BMW M3 Coupé&quot;</span><span class="p">;</span>
+            <span class="n">c</span><span class="p">.</span><span class="n">Marca</span> <span class="p">=</span> <span class="s">&quot;BMW&quot;</span><span class="p">;</span>
+
+            <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;Carro: {0} {1}/{2} - {3}&quot;</span><span class="p">,</span> <span class="n">c</span><span class="p">.</span><span class="n">Modelo</span><span class="p">,</span> <span class="n">c</span><span class="p">.</span><span class="n">Ano</span><span class="p">,</span> <span class="n">c</span><span class="p">.</span><span class="n">Marca</span><span class="p">,</span> <span class="n">c</span><span class="p">.</span><span class="n">Pais</span><span class="p">);</span>
+
+            <span class="c1">// Executando os métodos</span>
+            <span class="n">c</span><span class="p">.</span><span class="n">Ligar</span><span class="p">();</span>
+            <span class="n">c</span><span class="p">.</span><span class="n">Andar</span><span class="p">();</span>
+
+            <span class="c1">// Dando uma pausa de 2 segundos para o carro andar</span>
+            <span class="n">Thread</span><span class="p">.</span><span class="n">Sleep</span><span class="p">(</span><span class="m">2000</span><span class="p">);</span>
+
+            <span class="n">c</span><span class="p">.</span><span class="n">Parar</span><span class="p">();</span>
+            <span class="n">c</span><span class="p">.</span><span class="n">Desligar</span><span class="p">();</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p>Podemos ver a execução do nosso primeiro objeto, em um programa, abaixo:</p>
+<script id="asciicast-jhkOe9HaNfFV6ivTcUeuvMnbW" src="https://asciinema.org/a/jhkOe9HaNfFV6ivTcUeuvMnbW.js" async></script>
+
+<h3 id="construtores">Construtores<a class="headerlink" href="#construtores" title="Permanent link">&para;</a></h3>
+<p>Um construtor é um método especial que é executado no momento de sua inicialização e para cria-lo, devemos criar um método com o mesmo nome da classe<sup id="fnref5:1"><a class="footnote-ref" href="#fn:1">1</a></sup>. Vamos criar um construtor para nossa classe <code>Carro</code>:</p>
+<div class="codehilite"><pre><span></span><code><span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
+
+<span class="k">namespace</span> <span class="nn">ExemploOO</span>
+<span class="p">{</span>
+    <span class="k">public</span> <span class="k">class</span> <span class="nc">Carro</span>
+    <span class="p">{</span>
+        <span class="k">public</span> <span class="kt">string</span> <span class="n">Pais</span><span class="p">;</span>
+        <span class="k">public</span> <span class="kt">int</span> <span class="n">Ano</span><span class="p">;</span>
+        <span class="k">public</span> <span class="kt">string</span> <span class="n">Modelo</span><span class="p">;</span>
+        <span class="k">public</span> <span class="kt">string</span> <span class="n">Marca</span><span class="p">;</span>
+
+        <span class="k">public</span> <span class="nf">Carro</span><span class="p">()</span> <span class="c1">// Este é um construtor</span>
+        <span class="p">{</span>
+            <span class="c1">// Quando o objeto for inicializado, ele já irá ter</span>
+            <span class="c1">// estas informações como propriedades.</span>
+            <span class="k">this</span><span class="p">.</span><span class="n">Pais</span> <span class="p">=</span> <span class="s">&quot;Alemanha&quot;</span><span class="p">;</span>
+            <span class="k">this</span><span class="p">.</span><span class="n">Ano</span> <span class="p">=</span> <span class="m">2011</span><span class="p">;</span>
+            <span class="k">this</span><span class="p">.</span><span class="n">Modelo</span> <span class="p">=</span> <span class="s">&quot;BMW Z4 GT3&quot;</span><span class="p">;</span>
+            <span class="k">this</span><span class="p">.</span><span class="n">Marca</span> <span class="p">=</span> <span class="s">&quot;BMW&quot;</span><span class="p">;</span>
+        <span class="p">}</span>
+
+        <span class="k">public</span> <span class="k">void</span> <span class="nf">Ligar</span><span class="p">()</span>
+        <span class="p">{</span>
+            <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;Carro ligado.&quot;</span><span class="p">);</span>
+        <span class="p">}</span>
+
+        <span class="k">public</span> <span class="k">void</span> <span class="nf">Desligar</span><span class="p">()</span>
+        <span class="p">{</span>
+            <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;Carro desligado.&quot;</span><span class="p">);</span>
+        <span class="p">}</span>
+
+        <span class="k">public</span> <span class="k">void</span> <span class="nf">Andar</span><span class="p">()</span>
+        <span class="p">{</span>
+            <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;O carro esta andando.&quot;</span><span class="p">);</span>
+        <span class="p">}</span>
+
+        <span class="k">public</span> <span class="k">void</span> <span class="nf">Parar</span><span class="p">()</span>
+        <span class="p">{</span>
+            <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;O carro esta parado.&quot;</span><span class="p">);</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p>Vamos ver a execução desta nova classe alterando nosso <code>Program.cs</code>:</p>
+<div class="codehilite"><pre><span></span><code><span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
+<span class="k">using</span> <span class="nn">System.Threading</span><span class="p">;</span>
+
+<span class="k">namespace</span> <span class="nn">ExemploOO</span>
+<span class="p">{</span>
+    <span class="k">class</span> <span class="nc">Program</span>
+    <span class="p">{</span>
+        <span class="k">static</span> <span class="k">void</span> <span class="nf">Main</span><span class="p">(</span><span class="kt">string</span><span class="p">[]</span> <span class="n">args</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="n">Carro</span> <span class="n">c</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Carro</span><span class="p">();</span> <span class="c1">// A partir daqui temos o objeto c do tipo Carro</span>
+
+            <span class="c1">// Reparem que não foi inserida nenhuma propriedade!</span>
+            <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;Carro: {0} {1}/{2} - {3}&quot;</span><span class="p">,</span> <span class="n">c</span><span class="p">.</span><span class="n">Modelo</span><span class="p">,</span> <span class="n">c</span><span class="p">.</span><span class="n">Ano</span><span class="p">,</span> <span class="n">c</span><span class="p">.</span><span class="n">Marca</span><span class="p">,</span> <span class="n">c</span><span class="p">.</span><span class="n">Pais</span><span class="p">);</span>
+
+            <span class="c1">// Executando os métodos</span>
+            <span class="n">c</span><span class="p">.</span><span class="n">Ligar</span><span class="p">();</span>
+            <span class="n">c</span><span class="p">.</span><span class="n">Andar</span><span class="p">();</span>
+
+            <span class="c1">// Dando uma pausa de 2 segundos para o carro andar</span>
+            <span class="n">Thread</span><span class="p">.</span><span class="n">Sleep</span><span class="p">(</span><span class="m">2000</span><span class="p">);</span>
+
+            <span class="n">c</span><span class="p">.</span><span class="n">Parar</span><span class="p">();</span>
+            <span class="n">c</span><span class="p">.</span><span class="n">Desligar</span><span class="p">();</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p>Em execução, temos o seguinte resultado:</p>
+<script id="asciicast-V8KZYe3v3uIb75ogwo7fujXz5" src="https://asciinema.org/a/V8KZYe3v3uIb75ogwo7fujXz5.js" async></script>
+
+<h2 id="encapsulamento">Encapsulamento<a class="headerlink" href="#encapsulamento" title="Permanent link">&para;</a></h2>
+<p>Encapsulamento representa a proteção de alguma forma os trechos de código de um objeto afim de ser acessível somente de quem tem permissão. Em C# chamamos de modificadores de acesso e usamos isso desde o item <a href="#orienta%c3%a7%c3%a3o-a-objetos">Orientação a Objetos</a>, isto é, o <code>public</code> que escrevemos antes de cada classe, propriedade ou método. Temos 5 valores possíveis de usar e estão apresentados na tabela abaixo<sup id="fnref6:1"><a class="footnote-ref" href="#fn:1">1</a></sup>:</p>
+<table>
+<thead>
+<tr>
+<th>Modificador</th>
+<th>Funcionalidade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>public</code></td>
+<td>Acessível em qualquer classe</td>
+</tr>
+<tr>
+<td><code>private</code></td>
+<td>Acessível apenas na classe que foi declarado</td>
+</tr>
+<tr>
+<td><code>protected</code></td>
+<td>Acessível apenas a classe que foi declarado e suas subclasses</td>
+</tr>
+<tr>
+<td><code>internal</code></td>
+<td>Acessível às classes dentro do mesmo <em>assembly</em> ou <em>assembly</em> associado</td>
+</tr>
+<tr>
+<td><code>protected-internal</code></td>
+<td>Efeito combinado de <code>protected</code> e <code>internal</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="heranca">Herança<a class="headerlink" href="#heranca" title="Permanent link">&para;</a></h2>
+<p>Como todos os conceitos apresentados até aqui sobre orientação a objetos, a herança também é algo que é similar ao mundo real. Uma criança herda traços do seus pais ao mesmo tempo que possui suas próprias características. Na programação a ideia segue o mesmo conceito, onde um objeto poder herdar propriedades e métodos de outro objeto que chamamos de "objeto pai". Então um objeto <code>Carro</code> e <code>Caminhao</code> esta para um objeto pai chamado <code>Veiculo</code>. Vamos ver o exemplo abaixo destas classes:</p>
+<p>Arquivo <code>Veiculo.cs</code>:</p>
+<div class="codehilite"><pre><span></span><code><span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
+
+<span class="k">namespace</span> <span class="nn">ExemploOO</span>
+<span class="p">{</span>
+    <span class="k">public</span> <span class="k">class</span> <span class="nc">Veiculo</span>
+    <span class="p">{</span>
+        <span class="k">public</span> <span class="kt">string</span> <span class="n">Pais</span><span class="p">;</span>
+        <span class="k">public</span> <span class="kt">int</span> <span class="n">Ano</span><span class="p">;</span>
+        <span class="k">public</span> <span class="kt">string</span> <span class="n">Modelo</span><span class="p">;</span>
+        <span class="k">public</span> <span class="kt">string</span> <span class="n">Marca</span><span class="p">;</span>
+
+        <span class="k">public</span> <span class="k">void</span> <span class="nf">Ligar</span><span class="p">()</span>
+        <span class="p">{</span>
+            <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;Veículo ligado.&quot;</span><span class="p">);</span>
+        <span class="p">}</span>
+
+        <span class="k">public</span> <span class="k">void</span> <span class="nf">Desligar</span><span class="p">()</span>
+        <span class="p">{</span>
+            <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;Veículo desligado.&quot;</span><span class="p">);</span>
+        <span class="p">}</span>
+
+        <span class="k">public</span> <span class="k">void</span> <span class="nf">Andar</span><span class="p">()</span>
+        <span class="p">{</span>
+            <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;O veículo esta andando.&quot;</span><span class="p">);</span>
+        <span class="p">}</span>
+
+        <span class="k">public</span> <span class="k">void</span> <span class="nf">Parar</span><span class="p">()</span>
+        <span class="p">{</span>
+            <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;O veículo esta parado.&quot;</span><span class="p">);</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p>Arquivo <code>Carro.cs</code>:</p>
+<div class="codehilite"><pre><span></span><code><span class="k">namespace</span> <span class="nn">ExemploOO</span>
+<span class="p">{</span>
+    <span class="c1">// Aqui temos a herança sendo adicionada, agora Carro é herdeiro de Veiculo</span>
+    <span class="k">public</span> <span class="k">class</span> <span class="nc">Carro</span> <span class="p">:</span> <span class="n">Veiculo</span>
+    <span class="p">{</span>
+        <span class="k">public</span> <span class="nf">Carro</span><span class="p">(</span><span class="kt">string</span> <span class="n">marca</span><span class="p">,</span> <span class="kt">string</span> <span class="n">modelo</span><span class="p">,</span> <span class="kt">int</span> <span class="n">ano</span><span class="p">,</span> <span class="kt">string</span> <span class="n">pais</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="c1">// &quot;this&quot; quer dizer a própria classe mas ela não tem a</span>
+            <span class="c1">// propriedade &quot;Pais&quot;. Na realidade sua classe pai que</span>
+            <span class="c1">// passou essa propriedade (uma herança) para Carro!</span>
+            <span class="k">this</span><span class="p">.</span><span class="n">Pais</span> <span class="p">=</span> <span class="n">pais</span><span class="p">;</span>
+            <span class="k">this</span><span class="p">.</span><span class="n">Ano</span> <span class="p">=</span> <span class="n">ano</span><span class="p">;</span>
+            <span class="k">this</span><span class="p">.</span><span class="n">Modelo</span> <span class="p">=</span> <span class="n">modelo</span><span class="p">;</span>
+            <span class="k">this</span><span class="p">.</span><span class="n">Marca</span> <span class="p">=</span> <span class="n">marca</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p>Arquivo <code>Caminhao.cs</code>:</p>
+<div class="codehilite"><pre><span></span><code><span class="k">namespace</span> <span class="nn">ExemploOO</span>
+<span class="p">{</span>
+    <span class="c1">// Aqui temos a herança sendo adicionada, agora Caminhao é herdeiro de Veiculo</span>
+    <span class="k">public</span> <span class="k">class</span> <span class="nc">Caminhao</span> <span class="p">:</span> <span class="n">Veiculo</span>
+    <span class="p">{</span>
+        <span class="k">public</span> <span class="nf">Caminhao</span><span class="p">(</span><span class="kt">string</span> <span class="n">marca</span><span class="p">,</span> <span class="kt">string</span> <span class="n">modelo</span><span class="p">,</span> <span class="kt">int</span> <span class="n">ano</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="c1">// &quot;this&quot; quer dizer a própria classe mas ela não tem a</span>
+            <span class="c1">// propriedade &quot;Ano&quot;. Na realidade sua classe pai que</span>
+            <span class="c1">// passou essa propriedade (uma herança) para Caminhao!</span>
+            <span class="k">this</span><span class="p">.</span><span class="n">Ano</span> <span class="p">=</span> <span class="n">ano</span><span class="p">;</span>
+            <span class="k">this</span><span class="p">.</span><span class="n">Modelo</span> <span class="p">=</span> <span class="n">modelo</span><span class="p">;</span>
+            <span class="k">this</span><span class="p">.</span><span class="n">Marca</span> <span class="p">=</span> <span class="n">marca</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p>E aqui um exemplo de uso dos objetos usando a herança no <code>Program.cs</code>:</p>
+<div class="codehilite"><pre><span></span><code><span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
+<span class="k">using</span> <span class="nn">System.Threading</span><span class="p">;</span>
+
+<span class="k">namespace</span> <span class="nn">ExemploOO</span>
+<span class="p">{</span>
+    <span class="k">class</span> <span class="nc">Program</span>
+    <span class="p">{</span>
+        <span class="k">static</span> <span class="k">void</span> <span class="nf">Main</span><span class="p">(</span><span class="kt">string</span><span class="p">[]</span> <span class="n">args</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="n">Carro</span> <span class="n">c</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Carro</span><span class="p">(</span><span class="s">&quot;Aston Martin&quot;</span><span class="p">,</span> <span class="s">&quot;DB11&quot;</span><span class="p">,</span> <span class="m">2016</span><span class="p">,</span> <span class="s">&quot;Inglaterra&quot;</span><span class="p">);</span>
+            <span class="n">Caminhao</span> <span class="n">t</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Caminhao</span><span class="p">(</span><span class="s">&quot;Volvo&quot;</span><span class="p">,</span> <span class="s">&quot;FH16&quot;</span><span class="p">,</span> <span class="m">2009</span><span class="p">);</span>
+
+            <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;\nCarro: {0} {1}/{2} - {3}&quot;</span><span class="p">,</span> <span class="n">c</span><span class="p">.</span><span class="n">Modelo</span><span class="p">,</span> <span class="n">c</span><span class="p">.</span><span class="n">Ano</span><span class="p">,</span> <span class="n">c</span><span class="p">.</span><span class="n">Marca</span><span class="p">,</span> <span class="n">c</span><span class="p">.</span><span class="n">Pais</span><span class="p">);</span>
+
+            <span class="n">c</span><span class="p">.</span><span class="n">Ligar</span><span class="p">();</span>
+            <span class="n">c</span><span class="p">.</span><span class="n">Andar</span><span class="p">();</span>
+
+            <span class="n">Thread</span><span class="p">.</span><span class="n">Sleep</span><span class="p">(</span><span class="m">2000</span><span class="p">);</span>
+
+            <span class="n">c</span><span class="p">.</span><span class="n">Parar</span><span class="p">();</span>
+            <span class="n">c</span><span class="p">.</span><span class="n">Desligar</span><span class="p">();</span>
+
+            <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;\nCaminhao {0} {1}/{2}&quot;</span><span class="p">,</span><span class="n">t</span><span class="p">.</span><span class="n">Modelo</span><span class="p">,</span> <span class="n">t</span><span class="p">.</span><span class="n">Ano</span><span class="p">,</span> <span class="n">t</span><span class="p">.</span><span class="n">Marca</span><span class="p">);</span>
+
+            <span class="n">c</span><span class="p">.</span><span class="n">Ligar</span><span class="p">();</span>
+            <span class="n">c</span><span class="p">.</span><span class="n">Andar</span><span class="p">();</span>
+
+            <span class="n">Thread</span><span class="p">.</span><span class="n">Sleep</span><span class="p">(</span><span class="m">2000</span><span class="p">);</span>
+
+            <span class="n">c</span><span class="p">.</span><span class="n">Parar</span><span class="p">();</span>
+            <span class="n">c</span><span class="p">.</span><span class="n">Desligar</span><span class="p">();</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p>Aqui a execução deste programa:</p>
+<script id="asciicast-rsee4FL6LgEp2nmCvZCXqVAAc" src="https://asciinema.org/a/rsee4FL6LgEp2nmCvZCXqVAAc.js" async></script>
+
+<h2 id="polimorfismo">Polimorfismo<a class="headerlink" href="#polimorfismo" title="Permanent link">&para;</a></h2>
+<p>O polimorfismo tem como base a ideia que na classe pai, temos um método e este mesmo método existe na classe filha e é <strong>sobrescrito</strong><sup id="fnref7:1"><a class="footnote-ref" href="#fn:1">1</a></sup>. Imagine o nosso caso anterior, das classes filhas <code>Carro</code> e <code>Caminhao</code>, onde pode se ver que os métodos <code>Ligar()</code>, <code>Andar()</code>, <code>Parar()</code> e <code>Desligar()</code> eram da classe pai, mas executamos eles normalmente nas classes filhas devido a ser uma herança. Mas e quando um destes métodos precisa ser diferente em uma determinada classe filha? Por exemplo, o carro que ao andar agora pode habilitar o uso do turbo. Como isso ficaria?</p>
+<p>Os arquivos <code>Veiculo.cs</code> e <code>Caminhao.cs</code> permanecem iguais, nossa mudança será em <code>Carro.cs</code>:</p>
+<div class="codehilite"><pre><span></span><code><span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
+
+<span class="k">namespace</span> <span class="nn">ExemploOO</span>
+<span class="p">{</span>
+    <span class="c1">// Aqui temos a herança sendo adicionada, agora Carro é herdeiro de Veiculo</span>
+    <span class="k">public</span> <span class="k">class</span> <span class="nc">Carro</span> <span class="p">:</span> <span class="n">Veiculo</span>
+    <span class="p">{</span>
+        <span class="k">public</span> <span class="nf">Carro</span><span class="p">(</span><span class="kt">string</span> <span class="n">marca</span><span class="p">,</span> <span class="kt">string</span> <span class="n">modelo</span><span class="p">,</span> <span class="kt">int</span> <span class="n">ano</span><span class="p">,</span> <span class="kt">string</span> <span class="n">pais</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="c1">// &quot;this&quot; quer dizer a própria classe mas ela não tem a</span>
+            <span class="c1">// propriedade &quot;Pais&quot;. Na realidade sua classe pai que</span>
+            <span class="c1">// passou essa propriedade (uma herança) para Carro!</span>
+            <span class="k">this</span><span class="p">.</span><span class="n">Pais</span> <span class="p">=</span> <span class="n">pais</span><span class="p">;</span>
+            <span class="k">this</span><span class="p">.</span><span class="n">Ano</span> <span class="p">=</span> <span class="n">ano</span><span class="p">;</span>
+            <span class="k">this</span><span class="p">.</span><span class="n">Modelo</span> <span class="p">=</span> <span class="n">modelo</span><span class="p">;</span>
+            <span class="k">this</span><span class="p">.</span><span class="n">Marca</span> <span class="p">=</span> <span class="n">marca</span><span class="p">;</span>
+        <span class="p">}</span>
+
+        <span class="k">public</span> <span class="k">void</span> <span class="nf">Andar</span><span class="p">(</span><span class="kt">bool</span> <span class="n">usaTurbo</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">usaTurbo</span><span class="p">)</span>
+            <span class="p">{</span>
+                <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;O veículo esta correndo.&quot;</span><span class="p">);</span>
+            <span class="p">}</span>
+            <span class="k">else</span>
+            <span class="p">{</span>
+                <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;O veículo esta andando.&quot;</span><span class="p">);</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p>E no arquivo <code>Program.cs</code>:</p>
+<div class="codehilite"><pre><span></span><code><span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
+<span class="k">using</span> <span class="nn">System.Threading</span><span class="p">;</span>
+
+<span class="k">namespace</span> <span class="nn">ExemploOO</span>
+<span class="p">{</span>
+    <span class="k">class</span> <span class="nc">Program</span>
+    <span class="p">{</span>
+        <span class="k">static</span> <span class="k">void</span> <span class="nf">Main</span><span class="p">(</span><span class="kt">string</span><span class="p">[]</span> <span class="n">args</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="n">Carro</span> <span class="n">c</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Carro</span><span class="p">(</span><span class="s">&quot;Aston Martin&quot;</span><span class="p">,</span> <span class="s">&quot;DB11&quot;</span><span class="p">,</span> <span class="m">2016</span><span class="p">,</span> <span class="s">&quot;Inglaterra&quot;</span><span class="p">);</span>
+            <span class="n">Caminhao</span> <span class="n">t</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Caminhao</span><span class="p">(</span><span class="s">&quot;Volvo&quot;</span><span class="p">,</span> <span class="s">&quot;FH16&quot;</span><span class="p">,</span> <span class="m">2009</span><span class="p">);</span>
+
+            <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;\nCarro: {0} {1}/{2} - {3}&quot;</span><span class="p">,</span> <span class="n">c</span><span class="p">.</span><span class="n">Modelo</span><span class="p">,</span> <span class="n">c</span><span class="p">.</span><span class="n">Ano</span><span class="p">,</span> <span class="n">c</span><span class="p">.</span><span class="n">Marca</span><span class="p">,</span> <span class="n">c</span><span class="p">.</span><span class="n">Pais</span><span class="p">);</span>
+
+            <span class="n">c</span><span class="p">.</span><span class="n">Ligar</span><span class="p">();</span>
+            <span class="n">c</span><span class="p">.</span><span class="n">Andar</span><span class="p">(</span><span class="k">false</span><span class="p">);</span>
+
+            <span class="n">Thread</span><span class="p">.</span><span class="n">Sleep</span><span class="p">(</span><span class="m">2000</span><span class="p">);</span>
+
+            <span class="n">c</span><span class="p">.</span><span class="n">Andar</span><span class="p">(</span><span class="k">true</span><span class="p">);</span>
+
+            <span class="n">Thread</span><span class="p">.</span><span class="n">Sleep</span><span class="p">(</span><span class="m">2000</span><span class="p">);</span>
+
+            <span class="n">c</span><span class="p">.</span><span class="n">Parar</span><span class="p">();</span>
+            <span class="n">c</span><span class="p">.</span><span class="n">Desligar</span><span class="p">();</span>
+
+            <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;\nCaminhao {0} {1}/{2}&quot;</span><span class="p">,</span><span class="n">t</span><span class="p">.</span><span class="n">Modelo</span><span class="p">,</span> <span class="n">t</span><span class="p">.</span><span class="n">Ano</span><span class="p">,</span> <span class="n">t</span><span class="p">.</span><span class="n">Marca</span><span class="p">);</span>
+
+            <span class="n">c</span><span class="p">.</span><span class="n">Ligar</span><span class="p">();</span>
+            <span class="n">c</span><span class="p">.</span><span class="n">Andar</span><span class="p">();</span>
+
+            <span class="n">Thread</span><span class="p">.</span><span class="n">Sleep</span><span class="p">(</span><span class="m">2000</span><span class="p">);</span>
+
+            <span class="n">c</span><span class="p">.</span><span class="n">Parar</span><span class="p">();</span>
+            <span class="n">c</span><span class="p">.</span><span class="n">Desligar</span><span class="p">();</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p>Podemos ver que a execução ficou um pouco diferente:</p>
+<script id="asciicast-RoPvbKShWPKCciksxUgqZ6Agk" src="https://asciinema.org/a/RoPvbKShWPKCciksxUgqZ6Agk.js" async></script>
+
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p><a href="https://books.google.com.br/books?id=LR3nCwAAQBAJ&amp;dq=programa%C3%A7%C3%A3o+orientada+a+objetos+c%23&amp;hl=pt-BR&amp;source=gbs_navlinks_s">Programação em C# Para Iniciantes</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref4:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref5:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref6:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref7:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../basics/variables/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Variáveis
+              </div>
+            </div>
+          </a>
+        
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.93c04032.min.js"></script>
+      <script src="../../assets/javascripts/bundle.83e5331e.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: ['navigation.instant', 'navigation.tabs', 'navigation.sections', 'navigation.expand', 'toc.integrate'],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.8c7e0a7e.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
